@@ -96,6 +96,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="npm-shrinkwrap.json" />
     <None Include="Properties\PublishProfiles\PublishToIIS.pubxml">
       <SubType>Designer</SubType>
     </None>
@@ -127,7 +128,6 @@
     <Content Include="karma-shim.js" />
     <Content Include="karma.conf.js" />
     <Content Include="package.json" />
-    <Content Include="package-lock.json" />
     <Content Include="tsconfig.json" />
     <Content Include="gulpfile.js" />
     <Content Include="webpack.config.js" />
