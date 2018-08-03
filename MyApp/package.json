@@ -8,7 +8,7 @@
     "dtos": "cd src && typescript-ref",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "publish": "vue-cli-service build && dotnet publish -c Release",
+    "publish": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
     "test-watch": "vue-cli-service test:unit --watchAll",
     "e2e": "vue-cli-service test:e2e"
