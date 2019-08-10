@@ -2,6 +2,6 @@
 module.exports = {
     outputDir: 'wwwroot',
     devServer: {
-        proxy: 'http://localhost:5000'
-    }    
+        proxy: 'https://localhost:5001'
+    }
 };
