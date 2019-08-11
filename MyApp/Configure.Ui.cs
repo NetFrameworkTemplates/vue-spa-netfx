@@ -1,7 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using ServiceStack;
 
 namespace MyApp
@@ -11,12 +8,11 @@ namespace MyApp
         public void Configure(IAppHost appHost)
         {
             // if wwwroot/ is empty, build Client App with 'npm run build'
-            var svgDir = appHost.RootDirectory.GetDirectory("/svg");
+            var svgDir = appHost.RootDirectory.GetDirectory("/svg"); 
             if (svgDir != null)
             {
                 Svg.Load(svgDir);
             }
-            Svg.CssFillColor["svg-icons"] = "#2f495e";
 
             View.NavItems.AddRange(new List<NavItem>
             {
@@ -29,4 +25,3 @@ namespace MyApp
         }
     }
 }
-
