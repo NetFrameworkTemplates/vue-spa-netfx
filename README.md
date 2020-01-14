@@ -6,7 +6,7 @@ ASP.NET Framework Vue Webpack App Template
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/vue-spa-netfx), view live demo [vue-spa.web-templates.io](http://vue-spa.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ dotnet tool install --global web
+    $ dotnet tool install --global x
 
-    $ web new vue-spa-netfx ProjectName
+    $ x new vue-spa-netfx ProjectName
 
