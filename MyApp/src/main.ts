@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './app.scss';
+import './app.css';
 import 'es6-shim';
 
 import Vue from 'vue';

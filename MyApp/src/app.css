@@ -1,0 +1,13 @@
+body {
+}
+.form-check.form-control {
+    padding-left: 1.75rem;
+    height: auto;
+}
+.navbar {
+    border-radius: 0;
+    background: #41B883 !important;
+}
+a {
+    color: #35495E;
+}

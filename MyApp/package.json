@@ -34,8 +34,6 @@
     "@vue/test-utils": "^1.0.0-beta.28",
     "babel-core": "7.0.0-bridge.0",
     "gulp": "^4.0.2",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3",
     "vue-template-compiler": "^2.6.10"
@@ -65,7 +63,7 @@
     ],
     "transform": {
       "^.+\\.vue$": "vue-jest",
-      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      ".+\\.(css|styl|less|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
       "^.+\\.tsx?$": "ts-jest",
       "^@servicestack/vue$": "ts-jest"
     },

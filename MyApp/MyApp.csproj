@@ -81,7 +81,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="npm-shrinkwrap.json" />
     <Content Include="cypress.json" />
     <None Include="Properties\PublishProfiles\PublishToIIS.pubxml">
       <SubType>Designer</SubType>
@@ -90,7 +89,7 @@
     <Content Include="public\index.html" />
     <Content Include="public\svg\app\logo.svg" />
     <Content Include="public\svg\svg-icons\home.svg" />
-    <Content Include="src\app.scss" />
+    <Content Include="src\app.css" />
     <Content Include="src\App.vue" />
     <Content Include="tests\e2e\plugins\index.js" />
     <Content Include="tests\e2e\specs\test.js" />
