@@ -50,7 +50,7 @@
     <Folder Include="Types\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ServiceStack.Interfaces" Version="8.*" />
+    <PackageReference Include="ServiceStack.Interfaces" Version="10.*" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

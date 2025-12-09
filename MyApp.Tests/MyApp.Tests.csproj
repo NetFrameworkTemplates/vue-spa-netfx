@@ -75,8 +75,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="NUnit" Version="3.12.0" />
-    <PackageReference Include="ServiceStack" Version="8.*" />
-    <PackageReference Include="ServiceStack.Server" Version="8.*" />
+    <PackageReference Include="ServiceStack" Version="10.*" />
+    <PackageReference Include="ServiceStack.Server" Version="10.*" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
